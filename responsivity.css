@@ -2,7 +2,7 @@
     body{
         padding: 0 40px;
     }
-@media(max-width: 768px){
+@media(max-width: 1200px){
     .conteudo{
         padding: 0 auto;
         margin: 0 auto;
@@ -16,23 +16,23 @@
     }
     .info .texto{
         position: fixed;
-        top: 495px;
-        left: 220px;
+        top: 1020px;
+        left: 463px;
     }
     .info .header{
         position: fixed;
-        top: 428px;
-        left: 220px;
+        top: 951px;
+        left: 463px;
     }
     .conteudo .challenge{
-        left: 230px;
+        left: 500px;
     }
     .qrcode .imagem{
         position: fixed;
-        top: 209px;
-        right: 220px;
+        top: 730px;
+        right: 415px;
     }
     .conteudo .quadrado{
-        left: 220px;
+        left: 460px;
     }
 }
