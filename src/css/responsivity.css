@@ -16,23 +16,24 @@
     }
     .info .texto{
         position: fixed;
-        top: 495px;
-        left: 220px;
+        top: 572px;
+        left: 236px;
     }
     .info .header{
         position: fixed;
-        top: 428px;
-        left: 220px;
+        top: 505px;
+        left: 238px;
     }
     .conteudo .challenge{
-        left: 230px;
+        left: 263px;
     }
     .qrcode .imagem{
         position: fixed;
-        top: 209px;
-        right: 220px;
+        top:274px;
+        right: 215px;
     }
     .conteudo .quadrado{
-        left: 220px;
+        left: 227px;
     }
 }
+
