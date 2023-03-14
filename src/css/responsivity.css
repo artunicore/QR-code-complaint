@@ -1,0 +1,38 @@
+@media(max-width: 1280px){
+    body{
+        padding: 0 40px;
+    }
+@media(max-width: 768px){
+    .conteudo{
+        padding: 0 auto;
+        margin: 0 auto;
+        position: fixed;
+        align-items: center;
+    }
+    .info{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .info .texto{
+        position: fixed;
+        top: 495px;
+        left: 220px;
+    }
+    .info .header{
+        position: fixed;
+        top: 428px;
+        left: 220px;
+    }
+    .conteudo .challenge{
+        left: 230px;
+    }
+    .qrcode .imagem{
+        position: fixed;
+        top: 209px;
+        right: 220px;
+    }
+    .conteudo .quadrado{
+        left: 220px;
+    }
+}

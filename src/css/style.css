@@ -1,0 +1,70 @@
+body{
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    background-color: #d5e1ef;
+    max-width: 1280px;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+.qrcode .imagem{
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    position: fixed;
+    right: 660px;
+    border-radius: 10%;
+    top: 150px;
+}
+.info .header{
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+    width: 340px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    position: fixed;
+    top: 390px;
+    left: 560px;
+}
+
+.info .texto{
+    font-size: 15px;
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+    width: 340px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    position: fixed;
+    top: 450px;
+    left: 560px;
+}
+
+.conteudo .challenge{
+    height: 15px;
+    width: 350px;
+    color: hsl(213, 17%, 25%);
+    position: fixed;
+    left: 580px;
+    bottom: 50px;
+}
+
+.conteudo .quadrado{
+    background-color: hsl(0, 0%, 100%);
+    width: 350px;
+    height: 500px;
+    border-radius: 20px;
+    position: fixed;
+    left: 550px;
+    z-index: -1;
+}
